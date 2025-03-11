@@ -5,21 +5,65 @@
     <title>Exam</title>
 </head>
 <body>
+    <!--The "editor" area, otherwise the stylesheet-->
     <style>
-        h1
+        header
         {
             color:brown;
-             padding: 5px;
-             margin: ;
+        }
+        #pic
+        {
+            width: 200px;
+            height:200px;
+        }
+        p
+        {
+            
+            width: 700px;
+            border: 2px solid black;
+            border-radius: 10px 10px 10px;
+            margin: 16px 8px 32px 24px;
+            padding: 4px 4px 4px 4px;
         }
     </style>
-
-    <h1 style="color: blue;">What color is this?</h1>
-
-    <p>Atoms of radioactive elements can split. According to Albert Einstein, mass and energy are interchangeable under certain circumstances. When atoms split, the process is called nuclear fission. In this case, a small amount of mass is converted into energy. Thus the energy released cannot do much damage. However, several subatomic particles called neutrons are also emitted during this process. Each neutron will hit a radioactive element releasing more neutrons in the process. <br>
-    This causes a chain reaction and creates a large amount of energy. This energy is converted into heat which expands uncontrollably causing an explosion. Hence, atoms do not literally explode. They generate energy that can cause explosions.</p>
+    <header>
+        <img id = "pic" src="https://tulamama.com/wp-content/uploads/2020/09/Basketball-Ball.jpg">
+        <h1 style="color: blue;">This is a normal page</h1>
+        <caption>Welcome to the page</caption>
+    </header>
     <hr>
-    <p>Gardening is my favourite hobby. I own a small plot of land next to our house. I cultivate gardening there. Every day, I spend half an hour gardening. After returning from my morning walk, I go to my garden with a spade and a bucket of water. <br>
-    I prepare the soil, prune the plants, and water them. I also use insecticides and fertilisers. My heart leaps with joy when I see the plants swaying in the wind. I feel heavenly pleasure as I watch them grow day by day.</p>
+    <nav>
+        <a href="/index.html">Cool Link</a>
+        <a href="https://www.google.com">Google</a>
+    </nav>
+
+    
+    <main>
+        <article>
+            <!-- This is going to be about atoms-->
+            <section>
+                <h3>Atoms</h3>
+                <p>Atoms of radioactive elements can split. According to Albert Einstein, mass and energy are interchangeable under certain circumstances. When atoms split, the process is called nuclear fission. In this case, a small amount of mass is converted into energy. Thus the energy released cannot do much damage. However, several subatomic particles called neutrons are also emitted during this process. Each neutron will hit a radioactive element releasing more neutrons in the process. <br>
+                This causes a chain reaction and creates a large amount of energy. This energy is converted into heat which expands uncontrollably causing an explosion. Hence, atoms do not literally explode. They generate energy that can cause explosions.</p>
+            </section>
+            <!--This is going to be about gardening-->
+            <section>
+                <h3>Gardening</h3>
+                <p>Gardening is my favourite hobby. I own a small plot of land next to our house. I cultivate gardening there. Every day, <span style="font-variant: small-caps;"> spend half an hour gardening.</span> After returning from my morning walk, I go to my garden with a spade and a bucket of water. <br>
+                I prepare the soil, prune the plants, and water them. I also use insecticides and fertilisers. My heart leaps with joy when I see the plants swaying in the wind. I feel heavenly pleasure as I watch them grow day by day.</p>
+            </section>
+            <hr>
+        </article>
+        <aside>
+            <p>Something aside will go here, we don't really know. Get it?</p>
+        </aside>
+        <hr>
+        <!--An example for the footer-->
+        <footer>
+            <p>This is where the footer stuff will go like links like this: </p>
+            <a href="https://www.nba.com">NBA</a>
+            <a href="https://www.nfl.com">NFL</a>
+        </footer>
+    </main>
 </body>
 </html>
